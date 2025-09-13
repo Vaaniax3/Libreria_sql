@@ -1,0 +1,4 @@
+-- ELIMINACIONES
+DROP TABLE Detalles_Pedido;
+
+DROP TABLE Pagos;

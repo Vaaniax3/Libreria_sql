@@ -1,0 +1,9 @@
+-- MODIFICACIONES EN LA BASE DE DATOS
+ALTER TABLE Clientes 
+MODIFY telefono_cliente VARCHAR(20) NOT NULL;
+
+ALTER TABLE Libros 
+MODIFY precio_libro DECIMAL(10,3) NOT NULL;
+
+ALTER TABLE Pagos 
+ADD COLUMN fecha_confirmacion DATE;
